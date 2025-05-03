@@ -1,9 +1,12 @@
 
 
-
 # RAL - Retrieval Augmented Learning
 
 
+
+
+
+<img src="figure\fig2_00.png" alt="dify" style="zoom:50%;" />
 
 Submission to NeurIPS 2025, Submission Number: 5179 (Retrieval Augmented Learning: A Retrial-based Large Language Model Self-Supervised Learning and Autonomous Knowledge Generation)
 
@@ -23,9 +26,9 @@ Modify following code to release the token limitation：
 
 Build up a container though docker compose file, suggest docker-desktop of version 4.35.1 (173168) in Windows10/11 system.
 
-Then set your embedding model api (suggest GLM embedding-3) in local dify container http://127.0.0.1/apps and create empty databases and empty document.
+Then set your embedding model api (suggest GLM embedding-3) in local dify container http://127.0.0.1/apps and create empty databases (name as H V E1 E2, E2 for reducing multiple experiences corresponding to the same policy) and empty document (name as map name).
 
-### Test Dify
+### Test Dify for RAL
 
 get the dify api_url in local dify container http://127.0.0.1/apps, write to  the script in llm_pysc2/lib/rag_dify.py
 

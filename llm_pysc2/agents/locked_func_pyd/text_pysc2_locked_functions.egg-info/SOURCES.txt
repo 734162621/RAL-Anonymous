@@ -1,0 +1,6 @@
+main_agent_funcs.c
+setup.py
+text_pysc2_locked_functions.egg-info/PKG-INFO
+text_pysc2_locked_functions.egg-info/SOURCES.txt
+text_pysc2_locked_functions.egg-info/dependency_links.txt
+text_pysc2_locked_functions.egg-info/top_level.txt
